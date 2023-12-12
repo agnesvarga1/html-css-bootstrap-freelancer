@@ -17,6 +17,20 @@ hr {
 
   width: 100%;
 }
+label {
+  font-size: 20px;
+}
+
+input,
+textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+}
+
+input {
+  height: 0.5rem;
+}
 @media only screen and (min-width: 768px) {
   .titles {
     font-size: 1.5rem;
