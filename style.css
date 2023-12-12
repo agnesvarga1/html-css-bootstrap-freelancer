@@ -4,6 +4,9 @@
 .va_bg-accent {
   background-color: #1abc9c;
 }
+.highlighted {
+  color: #1abc9c;
+}
 
 hr {
   color: #000;
@@ -31,6 +34,22 @@ textarea {
 input {
   height: 0.5rem;
 }
+li {
+  list-style-type: none;
+}
+
+.d-flex.social {
+  gap: 10px;
+}
+.social svg {
+  fill: #fff;
+  width: 50%;
+}
+.social div {
+  width: 2rem;
+  aspect-ratio: 1;
+}
+
 @media only screen and (min-width: 768px) {
   .titles {
     font-size: 1.5rem;
@@ -40,5 +59,14 @@ input {
   }
   h2 {
     font-size: 3rem;
+  }
+
+  .social div {
+    width: 3rem;
+    aspect-ratio: 1;
+  }
+  .social svg {
+    fill: #fff;
+    width: 60%;
   }
 }
