@@ -31,9 +31,6 @@ textarea {
   border-bottom: 1px solid rgba(128, 128, 128, 0.425);
 }
 
-input {
-  height: 0.5rem;
-}
 li {
   list-style-type: none;
 }
