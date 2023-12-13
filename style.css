@@ -27,7 +27,9 @@ label {
   border: 0;
   border-bottom: 1px solid #ced4da;
 }
+
 ::placeholder {
+  color: #000;
   font-weight: 500;
 }
 li {
