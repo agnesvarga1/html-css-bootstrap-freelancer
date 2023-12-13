@@ -23,14 +23,13 @@ hr {
 label {
   font-size: 20px;
 }
-
-input,
-textarea {
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+.border-off {
+  border: 0;
+  border-bottom: 1px solid #ced4da;
 }
-
+::placeholder {
+  font-weight: 500;
+}
 li {
   list-style-type: none;
 }
